@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>您好！请注册</title>
+  <link rel="shortcut icon " href="../images/logo_favicon.ico">
+  <link rel="stylesheet" href="../css/Rigester.css">
+</head>
+<body>
+<div class="box">
+  <div class="pre-box">
+    <h1>WELCOME</h1>
+    <p>Please login</p>
+    <div class="img-box">
+      <img src="../images/logo-navtop.png">
+    </div>
+  </div>
+  <div class="register-form">
+    <div class="title-box">
+      <h1>登录</h1>
+    </div>
+    <div class="input-box">
+      <input type="text" placeholder="用户名">
+      <input type="password" placeholder="密码">
+    </div>
+    <div class="btn-box">
+      <button>登录</button>
+      <p onclick="mySwitch()">没有账号？去注册</p>
+    </div>
+
+  </div>
+  <div class="login-form">
+    <div class="title-box">
+      <h1>注册</h1>
+    </div>
+    <div class="input-box">
+      <input type="text" placeholder="用户名">
+      <input type="password" placeholder="密码">
+      <input type="password" placeholder="确认密码">
+
+    </div>
+    <div class="btn-box">
+      <button>注册</button>
+      <p onclick="mySwitch()">已有账号？去登录</p>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+  let flag=true
+  const  mySwitch=()=>{
+    if(flag){
+      $(".pre-box").css("transform","translateX(100%)")
+      $(".pre-box").css("background-color","#E2ECFB")
+      $("img").css("src","img/logo.jpg")
+
+    }
+    else{
+      $(".pre-box").css("transform","translateX(0%)")
+      $(".pre-box").css("background-color","#E2ECFB")
+      $("img").css("src","img/logo.jpg")
+    }
+
+    flag=!flag
+  }
+
+</script>
+
+</body>
+
+</html>
+

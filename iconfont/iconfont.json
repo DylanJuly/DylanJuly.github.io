@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1305",
+      "name": "购物车满",
+      "font_class": "gouwucheman",
+      "unicode": "f0178",
+      "unicode_decimal": 983416
+    },
+    {
+      "icon_id": "791946",
+      "name": "返回顶部",
+      "font_class": "ai-top",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "1366146",
+      "name": "微信公众号",
+      "font_class": "WeChat",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "1440640",
+      "name": "个人中心",
+      "font_class": "gerenzhongxin",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "6733458",
+      "name": "人工服务",
+      "font_class": "rengongfuwu",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "12797032",
+      "name": "售后",
+      "font_class": "shouhou",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--  抽奖-->
+  <meta charset="utf-8">
+  <title>您好！请抽奖</title>
+  <link rel="shortcut icon " href="../images/logo_favicon.ico">
+
+  <link rel="stylesheet" href="../css/gifts.css">
+</head>
+<body>
+<div class="box1">
+  <div class="pre-box">
+    <h1>WELCOME</h1>
+    <p>Please DRAW</p>
+    <div class="img-box">
+      <img src="../images/logo-navtop.png">
+    </div>
+  </div>
+  <div class="box">
+    <div class="div2">5元优惠券（通用）</div>
+    <div class="div3">10元优惠券（指定商品）</div>
+    <div class="div4">随机周边</div>
+    <div class="div5">95折优惠</div>
+    <div class="div6">随机鼠标垫</div>
+    <div class="div7">88折优惠</div>
+    <div class="div8">谢谢参与</div>
+    <div class="div9">2元优惠券</div>
+    <strong class="button"> 点击抽奖</strong>
+
+  </div>
+  <div class="img-box" style="box-shadow: none;float: right"><div style="float: right;"><a href="game.html" style="color: rgb(255,255,255);font-weight: bolder">再来一次</a> </div></div>
+
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="../js/gifts.js"></script>
+<script>
+  let flag=true
+  const  mySwitch=()=>{
+    if(flag){
+      $(".pre-box").css("transform","translateX(100%)")
+      $(".pre-box").css("background-color","#c9e0ed")
+      $("img").css("src","images/slogo.jpg")
+
+    }
+    else{
+      $(".pre-box").css("transform","translateX(0%)")
+      $(".pre-box").css("background-color","#ffb3b3")
+      $("img").css("src","images/slogo.jpg")
+    }
+    flag=!flag
+  }
+
+</script>
+
+</body>
+
+</html>
